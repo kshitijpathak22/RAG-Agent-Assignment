@@ -1,0 +1,10 @@
+langchain
+langchain-openai
+langchain-community
+langgraph
+pydantic
+python-dotenv
+faiss-cpu
+streamlit
+psycopg2-binary
+qdrant-client

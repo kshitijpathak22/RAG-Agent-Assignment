@@ -1,0 +1,17 @@
+# Environment Variables Template for RAG Agent
+# Copy this file to .env and fill in your actual values
+
+# OpenAI API Configuration
+OPENAI_API_KEY=your_openai_api_key_here
+
+# Vector Database Configuration
+# Choose one of the following vector backends:
+VECTOR_BACKEND=faiss  # Options: faiss, qdrant, pgvector
+
+# Qdrant Configuration (if using Qdrant)
+QDRANT_URL=http://localhost:6333
+QDRANT_COLLECTION=kb
+
+# PostgreSQL with pgvector Configuration (if using pgvector)
+PGVECTOR_CONN=postgresql://username:password@localhost:5432/database_name
+PGVECTOR_COLLECTION=kb
