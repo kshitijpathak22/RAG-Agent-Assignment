@@ -1,4 +1,4 @@
-# RAG Support Agent
+# RAG Support Agent By Kshitij Pathak
 
 A RAG-based AI support agent that can handle billing, account, technical issues, and complaints.
 
@@ -16,10 +16,6 @@ Then edit the `.env` file with your actual values:
 
 - **OPENAI_API_KEY**: Your OpenAI API key (required)
 - **VECTOR_BACKEND**: Choose between `faiss`, `qdrant`, or `pgvector` (default: `faiss`)
-- **QDRANT_URL**: Qdrant server URL (if using Qdrant)
-- **QDRANT_COLLECTION**: Qdrant collection name (if using Qdrant)
-- **PGVECTOR_CONN**: PostgreSQL connection string (if using pgvector)
-- **PGVECTOR_COLLECTION**: PostgreSQL collection name (if using pgvector)
 
 ### 2. Install Dependencies
 
